@@ -1,0 +1,249 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins' , sans-serif;
+}
+body
+{background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vx;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: #fff;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .zuun_tal
+{
+	position: relative;
+	background: #dc134c;
+	padding: 40px;
+}
+.container .baruun_tal
+{
+	position: relative;
+	background: #6495ed;
+}
+.profileText
+{
+	position: relative;
+	display: grid;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+.profileText h2
+{
+	color: #daa520;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+.profileText h2 span
+{
+	font-size: 0.8em;
+	font-weight: 300;
+
+}
+.contactInfo
+{
+	padding-top: 40px;
+}
+.title
+{
+	color: #00bfff;
+	border: 1px solid black;
+    padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.contactInfo ul
+{
+	position: relative;
+
+}
+.contactInfo ul li
+{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.contactInfo ul li .icon 
+{
+	display: inline-block;
+	width: 38px;
+	font-size: 18px;
+	color: #03a9f4;
+}
+.contactInfo ul li span 
+{
+	color: #fff;
+	font-weight: 300;
+
+}
+.contactInfo.cer li 
+{
+	margin-bottom: 15px;
+
+}
+.contactInfo.cer h5 
+{
+	color: #000000;
+	font-weight: 700;
+}
+.contactInfo.cer h6
+{
+	color: #fff;
+	font-weight: 600;	
+}
+.contactInfo.cer h4 
+{
+	color: #fff;
+	font-weight: 300;
+	
+}
+.about
+{
+	margin-bottom: 50px;
+}
+.about:last-child
+{
+	margin-bottom: 0;
+}
+.title2
+{
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+p 
+{
+	color: #000000;
+}
+.baruun_tal .about .edu ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.baruun_tal .about .edu ul li .info {
+  margin-bottom: 20px;
+}
+
+.baruun_tal .about .edu ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.baruun_tal .about .edu ul li:before,
+{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.baruun_tal .about .edu ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
+.about .box 
+{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+}
+.about .box .ajillsan_jil
+{
+	min-width: 150px;
+
+}
+.about .box .ajillsan_jil h5
+{
+	text-transform: uppercase;
+	color: #dc134c;
+	font-weight: 700;
+
+}
+.about .box .text h4
+{
+	text-transform: uppercase;
+	color: #ffd700;
+	font-size: 16px;
+
+}
+.skill .box 
+{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150fr 1px;
+	justify-content: center;
+	align-items: center;
+
+}
+.skill .box h4
+{
+	text-transform: uppercase;
+	color: #848c99;
+	font-weight: 500;
+}
+.skill .box h4 .percent
+{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: #dc134c ;
+
+}
+.skill .box .percent div
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: ##dc134c;
+
+}
+ .about .hobby ul li:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -52px;
+    width: 50px;
+    height: 2px;
+    background: #dc134c;
+}
