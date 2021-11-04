@@ -1,0 +1,250 @@
+    body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    width: 100vw;
+}
+
+#container {
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+    height: 5%;
+    width: auto;
+    background-color: #1b1b6c;
+    color: white;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#logo a {
+    width: 100px;
+}
+#deed {
+    color: white;
+    height: 40%;
+    width: 100%;
+    background-color: #13124f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#deed p {
+    padding-left: 20px;
+}
+#deed #button {
+    padding-left: 20px;
+}
+#deed #hello {
+    font-size: 3rem;
+    margin: 0;
+}
+#deed #welcome {
+    font-size: 1rem;
+    margin: 0;
+}
+#deed .button {
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #f61067;
+}
+#zuun {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+}
+#content {
+    width: 70%;
+    background-color: white;
+    padding: 20px 40px;
+    height: fit-content;
+}
+#content iframe {
+    width: 100%;
+    margin-top: 20px;
+    height: 350px;
+
+}
+#content #important {
+    margin-top: 20px;
+    background-color: #9090a5;
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-right: 5px;
+    transform: translateY(4px);
+}
+#baruun {
+    width: 30%;
+    background-color: white;
+    padding: 20px 40px;
+}
+#dood {
+    background-color: #13124f;
+    color: white;
+    width: auto;
+    margin: 0;
+}
+#dood p {
+    padding: 0px 10px;
+    padding-left: 30px;
+}
+#messages {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #f61067;
+    text-align: center;
+}
+#messages p {
+    padding: 0px 0px 10px 0px;
+}
+#messages span {
+    font-size: 1.3rem;
+}
+#husnegt {
+    background-color: #13124f;
+    color: white;
+    max-width: 100%;
+    margin: 0;
+    border: none;
+}
+#sdeed {
+    background-color: #9090a5;
+    padding: 10px;
+}
+#saaral {
+    padding: 15px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#saaral>input {
+    background-color: #1b1b6c;
+    border: none;
+    border-top: double;
+    border-bottom: double;
+    color: white;
+    padding: 10px;
+    padding-right: 0px;
+    width: auto;
+    margin-bottom: 10px;
+}
+#saaral>button {
+    border: none;
+    background-color: #f61067;
+    color: white;
+    width: auto;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+#link {
+    background-color: #352ba5;
+    padding: 10px 0px;;
+    width: auto;
+    text-align: center;
+}
+#link>a {
+    color: white;
+}
+#songolt {
+    margin-top: 20px;
+    padding: 10px;
+    width: auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+.percent {
+    display: flex;
+    margin-bottom: 20px;
+}
+#ulaan {
+    height: 10px;
+    width: 65%;
+    background-color: #f61067;
+}
+#nogoon {
+    height: 10px;
+    width: 35%;
+    background-color: #2ad392;
+}
+#tulaan {
+    color: white;
+    background-color: #f61067;
+    border: 2px solid #f61067;
+    padding: 10px 0;
+    max-width: auto;
+    width: 40%;
+}
+#tnogoon {
+    color: #2ad392;
+    background-color: white;
+    border: 2px solid #2ad392;
+    padding: 10px 0;
+    max-width: auto;
+    width: 40%;
+}
+#buttons {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    #zuun {
+        flex-direction: column;
+    }
+    #content {
+        width: auto;
+    }
+    #baruun {
+        width: auto;
+    }
+    #container {
+        width: auto;
+        height: 100%;
+        margin: 0;
+    }
+    #deed {
+        width: 100vw;
+    }
+    #tnogoon {
+        padding: 10px 15%;
+    }
+    #tulaan {
+        padding: 10px 15%;
+    }
+    #deed #button {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #zuun {
+        height: fit-content;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+    #content iframe {
+        min-height: 30%;
+    }
+    #container {
+        height: 100vh;
+        margin-bottom: 0;
+    }
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Палиндром</title>
+        <meta charset="utf-8">
+        <style>
+            html {
+                width: 100%;
+                height: 100%;
+                
+            }
+            .nogoon {
+                height: 100px;
+                width: 100px;
+                position: aboslute;
+                top: 0;
+                bottom: auto;
+                right: auto;
+                left: 0;
+                background-color: green;
+                border-radius: 10px;
+            }
+            .ulaan {
+                position: absolute;
+                height: 100px;
+                width: 100px;
+                right: 0;
+                left: auto;
+                top: auto;
+                bottom: 0;
+                background-color: red;
+                border-radius: 10px;
+            }  </style>
+
+        
+    </head>
+    <body>
+        <script>
+
+            var ner = window.prompt("Нэрээ оруулна уу"); 
+            
+            var palindrome = ""; 
+            for (var i = ner.length - 1; i >= 0; i--){ 
+                palindrome += ner[i].toLowerCase(); 
+            }
+            if (ner.toLowerCase() == palindrome){ 
+                document.writeln("<h1>Палиндром нэр мөн</h1>");
+            } else {
+                document.writeln("<h1>Палиндром нэр биш</h1>");
+            };
+
+            //daalgawar 4. 
+            var odor = new Date();
+            var tsag = odor.getHours();
+            var dorwoljin = document.createElement("div");
+
+            if (tsag < 18) {
+                dorwoljin.classList.add("nogoon");
+            } else {
+                dorwoljin.classList.add("ulaan");
+            }
+            
+            document.body.appendChild(dorwoljin);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Цифрүүдийн нийлбэр</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            var num = window.prompt("Тоогоо оруулна уу");
+            var sum = 0;
+            while (num > 0){
+                sum += num % 10; 
+
+                num = (num - num % 10) / 10; 
+            }
+            document.writeln("<h1> Цифрүүдийн нийлбэр бол "+ sum +"</h1>");
+        </script>
+    </body>
+</html>
