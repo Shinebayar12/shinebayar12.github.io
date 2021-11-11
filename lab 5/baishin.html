@@ -14,8 +14,8 @@
             var orts = 1;
             var haalga = 1;
             var i = 1;
-
-            while (i < toot){
+       
+           while (i < toot){
                     if (haalga < bAil){
                         haalga++;
                         console.log(haalga)
@@ -27,9 +27,29 @@
                         davhar = 1;
                         haalga = 1;
                     }
+                   else if (1> toot ) {
+                        orts = 0;
+                        davhar = 0;
+                        haalga = 0;                    
+                    }
+          
                     i++;
-            }
+                    
+             }        
+            if (toot <= 0){
+                alert('1 ба түүнээс дээш утга оруулна уу');
+            
+            } else if (toot > 108){
+                alert('108 ба түүнээс доош утга оруулна уу');
+            
+            } else {
+
+                    
+
             alert(`орц: ${orts}, давхар: ${davhar}, хаалга: ${haalga}`);
+            }
+           
+           
         </script>
     </body>
 </html>
