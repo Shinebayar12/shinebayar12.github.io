@@ -44,7 +44,12 @@
                 palindrome += ner[i].toLowerCase(); 
             }
             if (ner.toLowerCase() == palindrome){ 
-                document.writeln("<h1>Палиндром нэр мөн</h1>");
+                
+            if (ner.length == 1){
+                    document.writeln("<h1>Палиндром нэр биш</h1>");
+                } else {
+                   document.writeln("<h1>Палиндром нэр мөн</h1>");
+                }
             } else {
                 document.writeln("<h1>Палиндром нэр биш</h1>");
             };
